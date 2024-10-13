@@ -10,11 +10,11 @@ metadata:
       == "default"
   creationTimestamp: null
   labels:
-    appstudio.openshift.io/application: multi-app
+    appstudio.openshift.io/application: multi-app-test-ns
     appstudio.openshift.io/component: second
     pipelines.appstudio.openshift.io/type: build
   name: second-on-push
-  namespace: multi-app-test-ns
+  namespace: rh-ee-tnevrlka-tenant
 spec:
   params:
   - name: git-url
@@ -22,7 +22,7 @@ spec:
   - name: revision
     value: '{{revision}}'
   - name: output-image
-    value: quay.io/tnevrlka-test/multi-app-test-ns/multi-app/second:{{revision}}
+    value: quay.io/redhat-user-workloads/rh-ee-tnevrlka-tenant/second:{{revision}}
   - name: dockerfile
     value: Dockerfile
   - name: path-context
