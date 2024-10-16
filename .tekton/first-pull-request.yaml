@@ -226,7 +226,7 @@ spec:
         - name: name
           value: buildah-oci-ta
         - name: bundle
-          value: quay.io/tnevrlka-test/task-buildah-oci-ta:0.2-e95aec6a94bf6dcf532cd75de9a6b8b4e7f79fb1
+          value: "quay.io/tnevrlka-test/task-buildah-oci-ta@sha256:30f14db84d0255d0b3f39a159da0dc616021415432a4a60fb9b0a3bed44aedfa"
         - name: kind
           value: task
         resolver: bundles
