@@ -1,4 +1,4 @@
-FROM quay.io/jitesoft/nginx:latest
+FROM registry.access.redhat.com/ubi9
 
 ENV PORT="8080"
 
