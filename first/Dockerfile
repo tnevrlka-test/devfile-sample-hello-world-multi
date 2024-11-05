@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi9
+FROM quay.io/tnevrlka-test/appstudio-utils:latest
 
 ENV PORT="8080"
 
